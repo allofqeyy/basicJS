@@ -28,9 +28,10 @@ harga[1] * jumlah[1] +
 harga[2] * jumlah[2];
 // console.log(total);
 
-let nilaiRataRata = [80, 75, 90, 85, 70];
+let nilaiRataRata = [80, 75, 65, 45, 90, 90, 78, 80, 35, 95];
 let totalRataRata = nilaiRataRata [0] + nilaiRataRata [1] +
- nilaiRataRata [2] + nilaiRataRata [3] + nilaiRataRata [4];
-let rataRata = totalRataRata / 5;
-console.log(rataRata);
-// console.log("Nilai rata-rata: " + rataRata);
+nilaiRataRata [2] + nilaiRataRata [3] + nilaiRataRata [4] +
+nilaiRataRata [5] + nilaiRataRata [6] + nilaiRataRata [7] + nilaiRataRata [8] + nilaiRataRata [9];
+let jumlahSiswa= 10;
+let rataRata = totalRataRata / jumlahSiswa;
+console.log("Nilai rata-rata ICT Lv. X adalah " + rataRata);
