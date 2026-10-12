@@ -24,13 +24,27 @@
 //  }
 
 
-let menu = "telur asin";
-if (menu == "chicken katsu") {
-    console.log("kalian makan");
+// let menu = "telur asin";
+// if (menu == "chicken katsu") {
+//     console.log("kalian makan");
+// }
+//  else if (menu == "telur asin") {
+//     console.log("kalian cicipi");
+// } 
+// else {
+//     console.log("Tidak makan");
+// }
+
+let alatTulis = "spidol";
+if (alatTulis == "bolpoint") {
+    console.log("alat tulisnya", alatTulis, " , sean menulis");
 }
- else if (menu == "telur asin") {
-    console.log("kalian cicipi");
-} 
+else if (alatTulis == "pensil") {
+    console.log("alat tulisnya", alatTulis, " , sean menulis");
+}
+else  if (alatTulis == "crayon") {
+    console.log("alat tulisnya", alatTulis, " , sean   menggambar");
+}
 else {
-    console.log("Tidak makan");
+    console.log("alat tulisnya", alatTulis, " , sean tidak menulis maupun menggambar");
 }
